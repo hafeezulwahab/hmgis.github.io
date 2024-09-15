@@ -62,20 +62,35 @@ header {
     background: url('path-to-your-background-image.jpg') no-repeat center center/cover;
     height: 100vh; /* Full height of the viewport */
     display: flex;
-    justify-content: center;
-    align-items: center; /* Center vertically */
-    text-align: center;
-    color: #fff;
-    padding: 0 20px; /* Add some padding for smaller screens */
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    text-align: center; /* Center text */
+    color: #fff; /* White text color */
+    padding: 0 20px; /* Add padding for smaller screens */
 }
 
 .hero-section h1 {
     font-size: 3rem;
     margin: 0;
+    opacity: 1; /* Ensure opacity is set to visible */
 }
 
 .hero-section p {
     font-size: 1.5rem;
+    opacity: 1; /* Ensure opacity is set to visible */
+}
+
+.btn-primary {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #ff6f61; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s;
+    margin-top: 20px; /* Space between text and button */
 }
 
 /* Section Styles */
