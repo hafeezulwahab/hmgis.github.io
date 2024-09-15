@@ -61,7 +61,7 @@ header {
 /* Hero Section */
 .hero-section {
     background: url('path-to-your-background-image.jpg') no-repeat center center/cover;
-    height: 100vh; /* Full height of the viewport */
+    height: 20vh; /* Full height of the viewport */
     display: flex;
     flex-direction: column; /* Stack children vertically */
     justify-content: center;
