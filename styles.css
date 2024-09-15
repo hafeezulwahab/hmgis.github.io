@@ -58,27 +58,24 @@ header {
 }
 
 /* Hero Section */
+/* Hero Section */
 .hero-section {
     background: url('path-to-your-background-image.jpg') no-repeat center center/cover;
     height: 100vh; /* Full height of the viewport */
     display: flex;
-    flex-direction: column; /* Stack items vertically */
-    justify-content: center; /* Center vertically */
+    flex-direction: column; /* Stack children vertically */
+    justify-content: center;
     align-items: center; /* Center horizontally */
-    text-align: center; /* Center text */
-    color: #fff; /* White text color */
-    padding: 0 20px; /* Add padding for smaller screens */
+    text-align: center;
+    color: #fff;
+    padding: 0 20px; /* Add some padding for smaller screens */
 }
 
-.hero-section h1 {
-    font-size: 3rem;
+.hero-section h1,
+.hero-section p,
+.hero-section .btn-primary {
     margin: 0;
-    opacity: 1; /* Ensure opacity is set to visible */
-}
-
-.hero-section p {
-    font-size: 1.5rem;
-    opacity: 1; /* Ensure opacity is set to visible */
+    padding: 0;
 }
 
 .btn-primary {
