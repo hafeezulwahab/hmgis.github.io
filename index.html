@@ -3,170 +3,187 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="HMGIS - Your one-stop solution for Graphics Design, Website Development, GIS Mapping, and Cyber Security Services.">
-    <meta name="keywords" content="Graphics Design, Website Development, GIS Mapping, Cyber Security, HMGIS">
+    <meta name="description" content="Professional GIS, Web Design, Graphics Design, and Cyber Security Services">
+    <title>HMGIS - Digital Solutions for Your Business</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- CSS Stylesheet -->
     <link rel="stylesheet" href="styles.css">
-    <title>HMGIS - Home</title>
+
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
 </head>
 <body>
 
     <!-- Header Section -->
     <header class="sticky-header">
         <nav>
-            <div class="logo"><a href="#home">HMGIS</a></div>
+            <div class="logo">
+                <a href="#home">HMGIS</a>
+            </div>
             <ul class="nav-links">
-                <li><a href="#home" class="nav-link">Home</a></li>
                 <li><a href="#graphics-design" class="nav-link">Graphics Design</a></li>
                 <li><a href="#website-design" class="nav-link">Website Design</a></li>
-                <li><a href="#gis-maps" class="nav-link">GIS Maps</a></li>
+                <li><a href="#gis" class="nav-link">GIS Maps</a></li>
                 <li><a href="#cyber-security" class="nav-link">Cyber Security</a></li>
                 <li><a href="#about-us" class="nav-link">About Us</a></li>
                 <li><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
             <div class="burger">
-                <div></div>
-                <div></div>
-                <div></div>
+                <i class="fas fa-bars"></i>
             </div>
         </nav>
     </header>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero-section">
+    <!-- Home Section -->
+	<section id="home" class="hero-section">
+		<div class="container">
+			<h1>Welcome to HMGIS</h1>
+			<p>Your one-stop solution for Graphics Design, Website Development, GIS Mapping, and Cyber Security Services.</p>
+			<a href="#about-us" class="btn-primary">Learn More</a>
+		</div>
+	</section>
+
+    <!-- About Us Section -->
+    <section id="about-us">
         <div class="container">
-            <h1>Welcome to HMGIS</h1>
-            <p>Your one-stop solution for Graphics Design, Website Development, GIS Mapping, and Cyber Security Services.</p>
-            <a href="#about-us" class="btn-primary">Learn More</a>
+            <h2>About Us</h2>
+            <p>We are a technology-driven company, providing innovative solutions in GIS, Web Design, Graphics, and Cyber Security. Our mission is to empower businesses with cutting-edge digital solutions that enhance productivity and security.</p>
+            <h3>Our Core Values:</h3>
+            <ul>
+                <li><strong>Integrity:</strong> We uphold the highest standards of professionalism and transparency.</li>
+                <li><strong>Innovation:</strong> We embrace creativity and new technologies to drive success.</li>
+                <li><strong>Excellence:</strong> We strive for the highest standards in every project, ensuring quality and satisfaction for our clients.</li>
+            </ul>
+            <p>With a highly skilled team of designers, developers, and GIS specialists, we have the capability to tackle complex challenges and deliver solutions that exceed expectations. Whether you're looking to enhance your digital presence, secure your data, or leverage geospatial data, HMGIS is your trusted partner in innovation.</p>
         </div>
     </section>
 
+
     <!-- Graphics Design Section -->
-    <section id="graphics-design" class="services-section alt-bg">
+    <section id="graphics-design">
         <div class="container">
             <h2>Graphics Design</h2>
+            <p>At HMGIS, we specialize in delivering high-quality graphics design services tailored to elevate your brand's visual identity.</p>
             <div class="services-list">
                 <div class="service-item">
-                    <h3>Brand Identity Design</h3>
-                    <img src="path-to-icon/branding-icon.png" alt="Branding Icon" />
-                    <p>We create stunning brand identities that resonate with your audience.</p>
+                    <h3>Logo Design & Branding</h3>
+                    <p>Unique and versatile logos that reflect your brand’s core values.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Marketing Collateral</h3>
+                    <p>Brochures, business cards, posters, and more to enhance your marketing efforts.</p>
                 </div>
                 <div class="service-item">
                     <h3>Social Media Graphics</h3>
-                    <img src="path-to-icon/social-media-icon.png" alt="Social Media Icon" />
-                    <p>Engage your audience with eye-catching graphics for social media platforms.</p>
+                    <p>Engage your audience with custom graphics designed for digital platforms.</p>
                 </div>
                 <div class="service-item">
-                    <h3>Marketing Materials</h3>
-                    <img src="path-to-icon/marketing-icon.png" alt="Marketing Icon" />
-                    <p>We design brochures, flyers, and other marketing materials that stand out.</p>
+                    <h3>Infographics</h3>
+                    <p>Visually compelling infographics that communicate your data effectively.</p>
                 </div>
                 <div class="service-item">
-                    <h3>Custom Illustrations</h3>
-                    <img src="path-to-icon/illustration-icon.png" alt="Illustration Icon" />
-                    <p>Our team creates unique illustrations tailored to your brand's needs.</p>
+                    <h3>Print Design</h3>
+                    <p>High-quality print materials designed to captivate your audience.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Repeat similar sections for Website Design, GIS Maps, and Cyber Security -->
-    
-    <section id="website-design" class="services-section">
+    <!-- Website Design Section -->
+    <section id="website-design" class="alt-bg">
         <div class="container">
             <h2>Website Design</h2>
+            <p>Your website is the cornerstone of your online presence. We design responsive, modern websites tailored to your business needs.</p>
             <div class="services-list">
                 <div class="service-item">
-                    <h3>Responsive Design</h3>
-                    <img src="path-to-icon/web-design-icon.png" alt="Web Design Icon" />
-                    <p>We build responsive websites that provide an excellent user experience on all devices.</p>
+                    <h3>Custom Website Design</h3>
+                    <p>Fully custom websites that reflect your brand's voice and values.</p>
                 </div>
                 <div class="service-item">
-                    <h3>E-commerce Solutions</h3>
-                    <img src="path-to-icon/ecommerce-icon.png" alt="E-commerce Icon" />
-                    <p>Start selling online with our robust e-commerce solutions tailored to your needs.</p>
-                </div>
-                <div class="service-item">
-                    <h3>Content Management Systems</h3>
-                    <img src="path-to-icon/cms-icon.png" alt="CMS Icon" />
-                    <p>Manage your website easily with our user-friendly content management systems.</p>
+                    <h3>E-Commerce Solutions</h3>
+                    <p>Sell online with powerful, scalable, and secure e-commerce platforms.</p>
                 </div>
                 <div class="service-item">
                     <h3>SEO Optimization</h3>
-                    <img src="path-to-icon/seo-icon.png" alt="SEO Icon" />
-                    <p>Improve your website's visibility with our SEO optimization services.</p>
+                    <p>Ensure your site ranks higher in search engines with our SEO-friendly designs.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Content Management Systems</h3>
+                    <p>Manage your content easily with user-friendly CMS solutions.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Web Maintenance</h3>
+                    <p>Ongoing support and updates to keep your website running smoothly.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="gis-maps" class="services-section alt-bg">
+    <!-- GIS Section -->
+    <section id="gis">
         <div class="container">
-            <h2>GIS Maps</h2>
+            <h2>GIS (Ordnance Survey Maps)</h2>
+            <p>Our GIS services are designed to help you make data-driven decisions with precise geographic insights.</p>
             <div class="services-list">
                 <div class="service-item">
-                    <h3>Custom Map Design</h3>
-                    <img src="path-to-icon/map-icon.png" alt="Map Icon" />
-                    <p>We create custom maps tailored to your specific requirements.</p>
+                    <h3>Custom Mapping Solutions</h3>
+                    <p>Tailored Ordnance Survey maps for land development, environmental planning, and more.</p>
                 </div>
                 <div class="service-item">
                     <h3>Spatial Analysis</h3>
-                    <img src="path-to-icon/spatial-analysis-icon.png" alt="Spatial Analysis Icon" />
-                    <p>Gain insights through spatial analysis using our GIS expertise.</p>
+                    <p>Advanced data visualization to interpret complex geospatial data.</p>
                 </div>
                 <div class="service-item">
-                    <h3>Data Visualization</h3>
-                    <img src="path-to-icon/data-visualization-icon.png" alt="Data Visualization Icon" />
-                    <p>Transform complex data into easy-to-understand visual formats.</p>
-                </div>
-                <div class="service-item">
-                    <h3>GIS Consulting</h3>
-                    <img src="path-to-icon/consulting-icon.png" alt="Consulting Icon" />
-                    <p>Get expert advice on your GIS projects from our experienced consultants.</p>
+                    <h3>Geospatial Data Management</h3>
+                    <p>Expert management and integration of geospatial data for better decision-making.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="cyber-security" class="services-section">
+    <!-- Cyber Security Section -->
+    <section id="cyber-security" class="alt-bg">
         <div class="container">
             <h2>Cyber Security</h2>
+            <p>Protect your business from digital threats with our comprehensive cyber security services.</p>
             <div class="services-list">
                 <div class="service-item">
-                    <h3>Risk Assessment</h3>
-                    <img src="path-to-icon/security-icon.png" alt="Security Icon" />
-                    <p>Identify and assess risks to your information systems.</p>
+                    <h3>Security Audits</h3>
+                    <p>Identify vulnerabilities and mitigate risks with our thorough security audits.</p>
                 </div>
                 <div class="service-item">
-                    <h3>Network Security</h3>
-                    <img src="path-to-icon/network-security-icon.png" alt="Network Security Icon" />
-                    <p>Protect your network from threats with our advanced security solutions.</p>
+                    <h3>Data Encryption</h3>
+                    <p>Protect sensitive data with encryption technologies that secure your data at all levels.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Threat Detection</h3>
+                    <p>Real-time monitoring and threat detection to safeguard your assets.</p>
                 </div>
                 <div class="service-item">
                     <h3>Incident Response</h3>
-                    <img src="path-to-icon/incident-response-icon.png" alt="Incident Response Icon" />
-                    <p>We provide immediate response and recovery from security incidents.</p>
-                </div>
-                <div class="service-item">
-                    <h3>Security Training</h3>
-                    <img src="path-to-icon/training-icon.png" alt="Training Icon" />
-                    <p>Equip your team with the knowledge to recognize and respond to security threats.</p>
+                    <p>Swift action to mitigate damage and recover from security incidents.</p>
                 </div>
             </div>
-        </div>
-    </section>
-
-    <!-- About Us Section -->
-    <section id="about-us" class="about-section alt-bg">
-        <div class="container">
-            <h2>About Us</h2>
-            <p>At HMGIS, we are dedicated to providing innovative solutions across various domains including Graphics Design, Website Development, GIS Mapping, and Cyber Security. Our team of experts is committed to helping businesses succeed in a digital world.</p>
         </div>
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="contact-section">
+    <section id="contact">
         <div class="container">
             <h2>Contact Us</h2>
+            <p>We’re here to help. Whether you have a question about our services, need assistance with a project, or want to discuss how we can help your business grow, feel free to get in touch with us.</p>
+
+            <div class="contact-info">
+                <p><strong>Email:</strong> hafeez.ulwahab@hmgis.com</p>
+                <p><strong>Phone:</strong> +44 779 3630048</p>
+                <p><strong>Address:</strong> 13 Ashford Street, Nelson, Lancashire, BB9 9DG</p>
+            </div>
+
+            <h3>Get In Touch</h3>
             <form action="#" method="POST">
                 <label for="name">Name</label>
                 <input type="text" id="name" name="name" required>
@@ -185,13 +202,16 @@
     <!-- Footer Section -->
     <footer>
         <p>&copy; 2024 HMGIS. All rights reserved.</p>
-        <div class="social-media">
-            <a href="#" aria-label="Facebook"><img src="path-to-icons/facebook-icon.png" alt="Facebook"></a>
-            <a href="#" aria-label="Twitter"><img src="path-to-icons/twitter-icon.png" alt="Twitter"></a>
-            <a href="#" aria-label="LinkedIn"><img src="path-to-icons/linkedin-icon.png" alt="LinkedIn"></a>
-        </div>
     </footer>
 
-    <script src="script.js"></script>
+    <!-- JavaScript for Navigation -->
+    <script>
+        const burger = document.querySelector('.burger');
+        const navLinks = document.querySelector('.nav-links');
+
+        burger.addEventListener('click', () => {
+            navLinks.classList.toggle('nav-active');
+        });
+    </script>
 </body>
 </html>
