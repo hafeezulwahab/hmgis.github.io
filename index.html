@@ -7,51 +7,88 @@
     <title>HMGIS - Professional Services</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
+        /* Color Variables */
+        :root {
+            --primary-color: #1a73e8;
+            --secondary-color: #ff6f61;
+            --background-color: #f9f9f9;
+            --text-color: #333333;
+            --footer-bg: #212121;
+            --footer-text: #ffffff;
+        }
+
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: var(--background-color);
+            color: var(--text-color);
         }
+
         .navbar {
-            background-color: #333;
+            background-color: var(--primary-color);
         }
+
         .navbar-brand, .nav-link {
-            color: white !important;
+            color: var(--footer-text) !important;
         }
+
         .navbar-brand:hover, .nav-link:hover {
-            color: #aaa !important;
+            color: var(--secondary-color) !important;
         }
+
         .active-link {
             font-weight: bold;
-            border-bottom: 2px solid white;
+            border-bottom: 2px solid var(--footer-text);
         }
+
         section {
             padding: 60px 0;
             text-align: center;
         }
+
         h2 {
             font-size: 2.5em;
             margin-bottom: 20px;
+            color: var(--primary-color);
         }
+
         p {
             max-width: 700px;
             margin: 0 auto;
             font-size: 1.1em;
-            color: #666;
+            color: var(--text-color);
         }
+
         footer {
-            background-color: #333;
-            color: white;
+            background-color: var(--footer-bg);
+            color: var(--footer-text);
             text-align: center;
             padding: 20px 0;
         }
+
         .btn-primary {
-            background-color: #333;
+            background-color: var(--primary-color);
             border: none;
         }
+
         .btn-primary:hover {
-            background-color: #555;
+            background-color: var(--secondary-color);
+        }
+
+        /* Section Backgrounds */
+        #website-design, #cyber-security, #contact {
+            background-color: #eef3f8;
+        }
+
+        /* Adjust Link Colors */
+        a {
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: var(--secondary-color);
         }
     </style>
 </head>
@@ -99,7 +136,7 @@
 </section>
 
 <!-- Website Design Section -->
-<section id="website-design" style="background-color: #e9ecef;">
+<section id="website-design">
     <div class="container">
         <h2>Website Design</h2>
         <p>Your website is the digital face of your company, and we ensure it stands out. Our website design services focus on creating user-friendly, responsive websites that are tailored to your business needs.</p>
@@ -119,7 +156,7 @@
 </section>
 
 <!-- Cyber Security Section -->
-<section id="cyber-security" style="background-color: #e9ecef;">
+<section id="cyber-security">
     <div class="container">
         <h2>Cyber Security</h2>
         <p>In today’s digital landscape, protecting your business from cyber threats is more important than ever. Our cyber security services help safeguard your network, systems, and data from unauthorized access and attacks.</p>
@@ -139,7 +176,7 @@
 </section>
 
 <!-- Contact Section -->
-<section id="contact" style="background-color: #e9ecef;">
+<section id="contact">
     <div class="container">
         <h2>Contact Us</h2>
         <p>We would love to hear from you! Whether you have a project in mind, need more information about our services, or simply want to discuss how we can help you, feel free to get in touch.</p>
